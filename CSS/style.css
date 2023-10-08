@@ -166,3 +166,30 @@
   left: 0px;
   top: -107px;
 }
+
+/* Footer Section */
+
+.footer,
+.footer * {
+  box-sizing: border-box;
+}
+.footer {
+  background: #006185;
+  padding: 0px 32px 0px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 1280px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.designed-by-sweta-shah {
+  color: #ffffff;
+  text-align: left;
+  font: 500 16px "Lato", sans-serif;
+  position: relative;
+}
