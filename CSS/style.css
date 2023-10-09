@@ -89,7 +89,7 @@
 .hi-i-am {
   color: #484848;
   text-align: left;
-  font: 700 20px/30px "Lato", sans-serif;
+  font: 700 30px "Lato", sans-serif;
   position: relative;
   align-self: stretch;
   display: flex;
@@ -118,7 +118,7 @@
 .button {
   background: #484848;
   border-radius: 32px;
-  padding: 8px 64px 8px 64px;
+  padding: 8px 48px 8px 48px;
   display: flex;
   flex-direction: row;
   gap: 0px;
@@ -127,11 +127,11 @@
   flex-shrink: 0;
   position: relative;
 }
-.contact {
+.contact1 {
   color: #ffffff;
-  text-align: left;
-  font: 700 20px/27px "Lato", sans-serif;
-  position: relative;
+  text-align: center;
+  font: 20px "Lato", sans-serif;
+  position: center;
 }
 .button2 {
   background: #ffc102;
@@ -143,29 +143,15 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  position: relative;
-}
-.frame-2 {
-  flex-shrink: 0;
-  width: 576px;
-  height: 242px;
-  position: relative;
-}
-.rectangle-2 {
-  background: #d9d9d9;
-  width: 576px;
-  height: 242px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
+  position: center;
 }
 .designer-1 {
-  width: 576px;
-  height: 376px;
-  position: absolute;
-  left: 0px;
-  top: -107px;
+  flex-shrink: 0;
+  width: 376px;
+  height: 245px;
+  position: relative;
 }
+
 
 /* Footer Section */
 
